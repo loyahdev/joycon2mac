@@ -1,33 +1,26 @@
-# joycon2ctrl
-A experimental tool to allow compatibility with Nintendo Switch 2 Joycon 2's for MacOS.
+# Nintendo Switch 2 JoyCon as Mouse
 
-This is a fork and modified project from [joycon2mouse](https://github.com/moutella/joycon2mouse) and all original code is accredited to them.
+Software to use your joy-con 2 on Mac as mouse. I intend to make it a fully customizable software, but for now, all you can do is connect a right joy con and use it as a mouse
 
+# How to use this?
 
-## Current Implementation
-So far this project is able to read most of the data from the Joycon 2's and convert it to work
-on the mouse and keyboard.
+I intend to make an easy app where end-users can just open the app and have an easy time configuring buttons, sensitivity and such. But for now, you can just run the python app
 
-- WASD = Joystick L
-- Arrow Keys = DPAD L
-- TFGH = Joystick R
-- IJKL = X Y B A Resepectively
-- 1 = ZL
-- 2 = L
-- 9 = R
-- 10 = ZR
+1. Create a virtual enviroment
+2. Install requirements from requirements.txt
+3. Run main.py
+4. Press the sync button on your right joy con
+5. Enjoy your mouse
 
-> [!WARNING]
-> The reason I haven't added native HID emulation to make these work as controller is because I am yet to get a response from Apples Developer Team with the nessecary entitlements I need.
+It's not the best mouse ever, but it's still fun to be able to use it like that
 
-## Building
+---
+## Special Thanks! 
+I was only able to do this because of [the original joycon2py by  TheFrano](https://github.com/TheFrano/joycon2py/)
+
+Some more info I used was provided in [german77's joycon driver](https://github.com/german77/JoyconDriver)
 
 
-
-
-
-
-
-
-
-
+# Building
+macOS: setup.py py2app     
+Windows: pyinstaller --add-data "./assets/*.png:assets/." .\main.py 

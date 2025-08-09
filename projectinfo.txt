@@ -1,0 +1,24 @@
+This project is a research service for the recently released Nintendo Switch 2 console.
+I'm trying to make a Nintendo Switch 2 Joy Con 2 or pair of them to work fully on MacOS.
+
+Back when the original Nintendo Switch came out it took Apple 4 years before they added
+native support. I am trying to create my own support and have these Joy Con 2's act as a normal
+controller on MacOS without waiting years for Apple to do it.
+
+This project is made in Python and is run using py2app for simplicity as a sole menu bar app on macOS.
+
+_____
+
+The current state of this project is that the controllers connect perfectly fine. I have mouse support as well
+since the Joycon 2's have a mouse sensor on the bottom and it works on MacOS as normal. I also have all button presses
+being printed to the console as well and that works as well.
+
+_____
+
+The current issue is getting these Joycon 2 controllers to work as a normal bluetooth HID device on MacOS.
+This is proving difficult as these controllers use BLE technology and since MacOS doesn't support them they
+don't show up as a bluetooth controller in MacOS. Again my current state is I have logging for all button presses.
+
+For this project leave mouse mode and that aside.
+
+Most useful code is in joycon.py, main.py, and player.py with the rest of the code being around places.

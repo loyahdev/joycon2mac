@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>joycon2mouse</string>
+    <key>CFBundleDisplayName</key>
+    <string>joycon2mouse</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.joycon2mouse</string>
+    <key>CFBundleVersion</key>
+    <string>0.1.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <!-- <key>CFBundleSignature</key>
+    <string>????</string> -->
+    <key>LSUIElement</key>
+    <true/>
+    <!-- Or use LSBackgroundOnly if no UI is expected at all -->
+    <!-- <key>LSBackgroundOnly</key> -->
+    <!-- <true/> -->
+    <!-- Accessibility permission -->
+    <key>NSAccessibilityUsageDescription</key>
+    <string>This app needs accessibility access to control the mouse and keyboard.</string>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+uvicorn
+bleak
+fastapi
+pynput==1.8.1
+setuptools==0.70.3
+py2app
+Pillow
+appdirs==1.4.4

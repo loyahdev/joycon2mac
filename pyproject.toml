@@ -1,0 +1,19 @@
+[project]
+name = "joycon2mouse"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bleak>=1.0.1",
+    "fastapi>=0.116.1",
+    "pillow>=11.3.0",
+    "py2app>=0.28.8",
+    "pyinstaller>=6.14.2",
+    "pystray>=0.19.5",
+    "pynput>=1.8.1",
+    # "rumps>=0.4.0",
+    "setuptools==70.3.0",
+    "uvicorn>=0.35.0",
+    "appdirs>=1.4.4",
+]
