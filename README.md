@@ -27,5 +27,5 @@ Some more mac based info I used was provided in [moutella's joycon2mouse for Mac
 
 # Building
 macOS: python3 setup.py py2app
-
+(make sure to install correct requirements)
 Built app is in the dist folder.
