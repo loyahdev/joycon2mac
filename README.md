@@ -3,7 +3,7 @@
 This is a tool to use your Joycon 2 on Mac as keyboard controller. I intend to make it a fully customizable, but for now, all you can do is connect a maximum of 2 Joycons and have all button and joystick functions mapped to the keyboard.
 
 When both Joycon 2's are connected they work in vertical mode with the L/R buttons facing
-up. While for each single Joycon 2 they work horizontal with the SL/SR buttons facing up.
+up. While for each single Joycon 2 they work horizontal with the SL/SR buttons facing up. Mapping for single and dual Joycon 2's change automatically.
 
 # How to use this?
 
