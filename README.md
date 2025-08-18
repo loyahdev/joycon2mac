@@ -9,9 +9,8 @@ up. While for each single Joycon 2 they work horizontal with the SL/SR buttons f
 
 1. Download the latest release from the releases tab
 2. Follow instructions in app
-___
-5. Hold the sync button on any Joycon 2 to pair with the app
-6. Enjoy
+3. Hold the sync button on any Joycon 2 to pair with the app
+4. Enjoy
 
 It's not the best tool ever but its worth using if you really want to. There is still numerous bugs and some button mapping might be messed up per orientation.
 
