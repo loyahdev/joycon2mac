@@ -2,7 +2,8 @@ uvicorn
 bleak
 fastapi
 pynput==1.8.1
-setuptools==0.70.3
+setuptools==70.3.0
 py2app
 Pillow
+pystray>=0.19.5
 appdirs==1.4.4
