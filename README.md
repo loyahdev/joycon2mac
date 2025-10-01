@@ -16,6 +16,7 @@ It's not the best tool ever but its worth using if you really want to. There is 
 
 >[!NOTE]
 >When Apple accepts my entitlement request for Driver Kit I will make this tool into a fully working HID emulator to have the Joycon 2's work as a fully functional bluetooth controller.
+>Update - I've been waiting for 2 months with multiple back and forth emails to new senior advisors that do no help
 
 ---
 ## Special Thanks! 
